@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 5px;
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff5959;
+}
+
+.donate-header {
+    background-image: url("../images/images/donation8.jpg"), linear-gradient(180deg, rgba(255, 255, 255, .1), rgba(0, 0, 0, 1));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(69, 68, 68, 0.736);  */
+    background-blend-mode: overlay;
+}
+
+.donate-contant {
+    margin: 0 200px;
+}
+
+.header-title {
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+    padding: 0 50px 20px 50px;
+}
+
+.header-sub-title {
+    color: white;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.donate-price-section {
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-now {
+    text-align: center;
+}
+
+.donate-now-title {
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.donate-now-sub-title {
+    color: #969696;
+    line-height: 25px;
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+
+.donate-money {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.doante-box h3 {
+    padding: 20px 30px;
+    font-size: 30px;
+    color: #707070;
+}
+
+.active-donate {
+    background-color: #ffeeee;
+    border: 3px solid #ff9393;
+    border-radius: 5px;
+}
+
+.active-donate>h3 {
+    color: #ff5959;
+}
+
+.donate-input-title {
+    color: #b7b7b7;
+    /* border-bottom: 2px solid #b7b7b7; */
+    padding: 10px 0;
+}
+
+.donate-input {
+    margin: 0 200px;
+    text-align: center;
+}
+
+.donate-input hr {
+    margin: 0 300px;
+    margin-bottom: 25px;
+    height: 1px;
+    background-color: #b7b7b7;
+    border: none;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-contant h2 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.plan-contant p {
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.plan-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    margin-top: 50px;
+}
+
+.per-plan-box {
+    padding: 60px 30px;
+    margin-right: 25px;
+}
+
+.sky-color {
+    background-color: #edf5f6;
+}
+
+.red-color {
+    background-color: #ffeeee;
+}
+
+.yellow-color {
+    background-color: #fff4d6;
+}
+
+.per-plan-box h3 {
+    margin: 20px 0;
+}
+
+.per-plan-box p {
+    color: #959797;
+}
+
+.help-people {
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.help-img img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    margin-right: 100px;
+    background: linear-gradient(180deg, #a9a9a92b, rgb(0, 0, 0));
+    ;
+    background-blend-mode: overlay;
+    border-radius: 5px;
+}
+
+.help-contant {
+    margin-right: 50px;
+}
+
+.help-contant h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.mr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+.help-contant p {
+    color: #959797;
+}
+
+.update-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.update-input {
+    height: 200px;
+    width: 100%;
+    background-color: #fff4d6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.update h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.update p {
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
+
+.update-input input {
+    border: none;
+    padding: 10px 35px;
+}
+
+.btn-extra {
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    padding: 6px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff5959;
+}
+footer{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0d17;
+    margin-top: 150px;
+}
+footer h3{
+    color: #ff5959;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+footer p{
+    color: #b7b7b7;
+    font-size: 14px;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .donate-contant{
+        margin: 0 auto;
+    }
+    .header-title{
+        padding: 5px 5px;
+        font-size: 12vw;
+    }
+    .donate-price-section{
+        margin: 0 auto;
+    }
+    .donate-money{
+        flex-direction: column;
+    }
+    .donate-input{
+        margin: 0 auto;
+    }
+    .plan-box{
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+    }
+    .per-plan-box{
+        margin: 0 10px;
+        margin-bottom: 5px;
+    }
+    .help-people{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+   .help-img img{
+        margin: 0;
+        width: 100%;
+    }
+    .help-contant{
+        margin-right: 0;
+        padding: 20px 10px;
+    }
+    .update-section{
+        margin: 0 auto;
+    }
+    .update{
+        margin-top: 50px;
+    }
+    footer{
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .donate-contant{
+        margin: 0 auto;
+    }
+    .header-title{
+        padding: 5px 5px;
+        font-size: 7vw;
+    }
+    .donate-price-section{
+        margin: 0 auto;
+    }
+    .donate-money{
+        flex-direction: column;
+    }
+    .donate-input{
+        margin: 0 auto;
+    }
+    .plan-box{
+        margin: 0 auto;
+    }
+    .per-plan-box{
+        margin: 0 10px;
+    }
+    .help-people{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .help-img img{
+        margin: 0;
+        width: 100%;
+    }
+    .help-contant{
+        margin-right: 0;
+        padding: 30px 76px;
+    }
+    .update-section{
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:993px) {
+    .donate-contant{
+        margin: 0 auto;
+    }
+    .header-title{
+        padding: 5px 5px;
+        font-size: 5vw;
+    }
+ .help-img img{
+    margin-right: 0;
+ }
+ .help-contant{
+    margin-right: 0;
+    margin-left: 50px;
+ }
+}
